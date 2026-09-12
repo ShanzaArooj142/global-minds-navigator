@@ -7,6 +7,7 @@ import Guidance from './components/Guidance'
 import Footer from './components/Footer'
 import Faqs from './components/Faqs'
 import Bookings from './components/Bookings'
+import Services from './components/Services'
 
 const App = () => {
   return (
@@ -48,6 +49,8 @@ const App = () => {
       />
     </div>
 
+    <Services/>
+
 
      < div className='bg-gray-50 min-h-screen'>
       <Guidance 
@@ -56,8 +59,7 @@ const App = () => {
         image='https://globalmindsconsultants.com/images/girl.jpg'
         point1Title={<h1>Academic Excellence</h1>}
         point1Desc={<p>Research the global ranking, reputation, and specialization of universities to <br /> ensure the program aligns with your academic and career goals.</p>}
-        point2Title={<h1>
-Cost of Living & Tuition Fees</h1>}
+        point2Title={<h1>Cost of Living & Tuition Fees</h1>}
         point2Desc={<p>Compare tuition costs, accommodation, and daily expenses to choose a destination that fits your financial plan without compromising on quality.</p>}
         point3Title={<h1>Work & Immigration Opportunities</h1>}
         point3Desc={<p>Explore part-time work options, post-study work permits, and immigration pathways to maximize your international exposure and career prospects.</p>}

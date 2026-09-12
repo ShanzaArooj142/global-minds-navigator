@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import { motion } from "framer-motion";
 import { SlideDown, SlideUp } from '../utility/Animation'
+import { ZoomIn } from '../utility/Animation';
 const Hero = () => {
   return (
 
@@ -44,10 +45,10 @@ const Hero = () => {
      </motion.p>
 
       <motion.button
-        variants={SlideUp(0.6)}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
+       variants={ZoomIn(0.2)}
+       initial="hidden"
+       whileInView="visible"
+       viewport={{ once: true }}
 
        className="bg-[#74BF1A] hover:bg-[#65A817] text-white font-semibold text-base md:text-lg px-8 py-3.5 rounded-lg transition-all duration-300 shadow-lg cursor-pointer">
        Start Your Journey
