@@ -60,15 +60,15 @@ const Footer = () => {
           <h3 className="text-2xl font-bold mb-4 text-white">Contact Info</h3>
           <ul className="space-y-4 text-md ">
             <li className="flex items-start space-x-3">
-              <FaLocationDot className="text-green-400 mt-1 shrink-0" />
+              <FaLocationDot className="text-green-500 mt-1 shrink-0" />
               <span className="text-white leading-relaxed">Office no 14, 4th floor, Mall of Sargodha</span>
             </li>
             <li className="flex items-center space-x-3">
-              <FaPhone className="text-green-400 shrink-0" />
+              <FaPhone className="text-green-500 shrink-0" />
               <span className="text-white">+92 317 1115091 / +92 317 1115092</span>
             </li>
             <li className="flex items-center space-x-3">
-              <FaFacebookF className="text-green-400 shrink-0" />
+              <FaFacebookF className="text-green-500 shrink-0" />
               <span className="text-white">Global Minds Consultants</span>
             </li>
           </ul>

@@ -14,11 +14,11 @@ const DestinationFAQs = () => {
           viewport={{ once: true }}
         
          className="text-4xl font-bold text-gray-900">
-          Destination <span className="text-lime-600 font-semibold">FAQs</span>
+          Destination <span className="text-[#74BF1A]  font-bold">FAQs</span>
         </motion.h2>
 
         <motion.p 
-           variants={FadeIn(0.1)}
+           variants={FadeIn(0.4)}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
