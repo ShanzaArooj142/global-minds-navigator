@@ -43,7 +43,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Column 3: Our Services */}
+       
         <div>
           <h3 className="text-2xl font-bold mb-4 text-white">Our Services</h3>
           <ul className="space-y-2.5 text-md ">
@@ -73,11 +73,9 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-
       </div>
       
-      
-      <div className="max-w-7xl mx-auto pt-6 text-center text-sm font-semibold text-white">
+      <div className="max-w-7xl mx-auto pt-6 text-center text-sm text-white">
         Global Minds Consultants 2026 | Private LTD. All rights reserved.
       </div>
     </footer>
