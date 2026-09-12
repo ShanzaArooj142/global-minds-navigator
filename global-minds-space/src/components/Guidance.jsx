@@ -23,29 +23,29 @@ const Guidance = ({ heading, description, image, point1Title, point1Desc, point2
               </div>
               <div>
                 <h4 className="font-bold text-gray-900 text-lg mb-1">{point1Title}</h4>
-                <p className="text-gray-600 text-sm leading-relaxed">{point1Desc}</p>
+                <p className="text-gray-600 text-md leading-relaxed">{point1Desc}</p>
               </div>
             </div>
 
-            {/* Point 2 */}
+            
             <div className="flex items-start gap-4">
               <div className="bg-[#74BF1A]  p-1 rounded-full text-white mt-1">
                 <TiTick className="w-5 h-5" />
               </div>
               <div>
                 <h4 className="font-bold text-gray-900 text-lg mb-1">{point2Title}</h4>
-                <p className="text-gray-600 text-sm leading-relaxed">{point2Desc}</p>
+                <p className="text-gray-600 text-md leading-relaxed">{point2Desc}</p>
               </div>
             </div>
 
-            {/* Point 3 */}
+            
             <div className="flex items-start gap-4">
               <div className="bg-[#74BF1A]  p-1 rounded-full text-white mt-1">
                 <TiTick className="w-5 h-5" />
               </div>
               <div>
                 <h4 className="font-bold text-gray-900 text-lg mb-1">{point3Title}</h4>
-                <p className="text-gray-600 text-sm leading-relaxed">{point3Desc}</p>
+                <p className="text-gray-600 text-md leading-relaxed">{point3Desc}</p>
               </div>
             </div>
 
