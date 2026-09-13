@@ -6,7 +6,6 @@ const Footer = () => {
     <footer className="bg-blue-950 text-white pt-12 pb-6 px-6 md:px-16">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 pb-12 border-b border-blue-600">
         
-      
         <div className="space-y-4">
           <div className="bg-white p-3 rounded-2xl w-40 h-40 flex items-center justify-center shadow-md">
             <img src="https://globalmindsconsultants.com/images/logo.png" alt="" className="max-h-full max-w-full cursor-pointer" />

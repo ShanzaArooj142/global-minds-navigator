@@ -6,7 +6,6 @@ const DestinationFAQs = () => {
     <div className="bg-gray-50 py-25 px-6 text-center">
       <div className="max-w-4xl mx-auto flex flex-col items-center mb-5">
         
-       
         <motion.h2 
           variants={SlideDown(0.4)}
           initial="hidden"
@@ -18,7 +17,7 @@ const DestinationFAQs = () => {
         </motion.h2>
 
         <motion.p 
-           variants={FadeIn(0.4)}
+          variants={FadeIn(0.4)}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
