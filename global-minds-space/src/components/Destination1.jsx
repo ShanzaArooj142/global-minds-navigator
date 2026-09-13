@@ -16,7 +16,6 @@ const Destination1 = () => {
         className="text-[#74BF1A] font-bold tracking-wide text-3xl block mb-4">
           Study Abroad
         </motion.h1>
-        
 
         <motion.p
           variants={SlideUp(0.05)}

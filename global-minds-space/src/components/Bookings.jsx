@@ -16,8 +16,6 @@ const Bookings = () => {
           For further help, <span className="text-[#74BF1A] font-bold">book a call </span> now!
         </motion.h2>
 
-       
-       
        <motion.button
           variants={ZoomIn(0.2)}
            initial="hidden"
