@@ -15,7 +15,7 @@ const Hero = () => {
 
      <div className="relative flex flex-col items-center justify-center text-center px-4 py-20 min-h-[80vh]">
       <motion.h1
-      variants={SlideDown(0.4)}
+       variants={SlideDown(0.4)}
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}

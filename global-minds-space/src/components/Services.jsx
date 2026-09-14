@@ -1,7 +1,7 @@
 import React from 'react';
 import { TiTick } from "react-icons/ti";
 import { motion } from "framer-motion";
-import { SlideRight,SlideUp } from '../utility/Animation';
+import { SlideRight,SlideUp } from '../utility/Animation';  
 
 const DestinationBenefits = () => {
   return (

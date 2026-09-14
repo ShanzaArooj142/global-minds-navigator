@@ -49,20 +49,20 @@ const Guidance = ({ heading, description, image, point1Title, point1Desc, point2
 
             
             <motion.div
-              variants={SlideUp(0.4)}
+               variants={SlideUp(0.3)}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
             
             
-             className="flex items-start gap-4">
-              <div className="bg-[#74BF1A]  p-1 rounded-full text-white mt-1">
+               className="flex items-start gap-4">
+               <div className="bg-[#74BF1A]  p-1 rounded-full text-white mt-1">
                 <TiTick className="w-5 h-5" />
-              </div>
-              <div>
+               </div>
+               <div>
                 <h4 className="font-bold text-gray-900 text-lg mb-1">{point2Title}</h4>
                 <p className="text-gray-600 text-md leading-relaxed">{point2Desc}</p>
-              </div>
+               </div>
             </motion.div>
 
             
